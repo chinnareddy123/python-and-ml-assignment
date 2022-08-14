@@ -28,8 +28,6 @@ import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
 #import data
-url = "https://raw.githubusercontent.com/jackty9/Handling_Imbalanced_Data_in_Python/master/bank-full-encoded.csv"
-df = pd.read_csv(url)
 
 # Separating the independent variables from dependent variables
 X = df.iloc[:,:-1]
